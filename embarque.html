@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embarque y desembarque en helicoptero</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/b634a522da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="imagenes/header web universae/HeaderWebUniversae.png" alt="Universae Logo" width="200" height="50">
+        
+    </header>
+
+    <div class="gameContainer" style="text-align: center; margin: 20px;">
+        
+        <iframe src="https://html-classic.itch.zone/html/8839341/index.html" 
+                width="800" 
+                height="600" 
+                frameborder="0" 
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="imagenes-container">
+        <div class="modal" id="imageModal">
+            <span class="close">&times;</span>
+            <button class="prev">&#10094;</button>
+            <div class="modal-content">
+                <img id="modalImage" src="" alt="Modal Image">
+            </div>
+            <button class="next">&#10095;</button>
+        </div>
+
+        <div class="imagenes">
+            <img src="imagenes/Img.Embarque/Embarque0.png" onclick="openModal(0)">
+            <img src="imagenes/Img.Embarque/Embarque1.png" onclick="openModal(1)">
+            <img src="imagenes/Img.Embarque/Embarque2.png" onclick="openModal(2)">
+            <img src="imagenes/Img.Embarque/Embarque3.png" onclick="openModal(3)">
+            <img src="imagenes/Img.Embarque/Embarque4.png" onclick="openModal(4)">
+        </div>
+    </div>
+
+    <script src="carrusel.js"></script>
+
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/UNIVERSAE" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/_universae/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>    
+            <a href="https://www.youtube.com/UNIVERSAE_FP" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>       
+            <a href="https://www.twitch.tv/universae_fp" target="_blank">
+                <i class="fa-brands fa-twitch"></i>
+            </a>
+            <a href="https://www.linkedin.com/school/universae/posts/?feedView=all" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.tiktok.com/@_universae" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://x.com/_Universae" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://universae.com/?utm_source=google&utm_medium=cpc&utm_campaign=Universae_Performance_Marca_Prospecting_Busqueda_ES_Google&utm_content=marcaexacta&utm_term=marcaexacta&utm_id=19548868792&gad_source=1&gclid=CjwKCAiAmMC6BhA6EiwAdN5iLVlmCUztSmZzc1wEvhioPjXdiNQsCgIw9zec2dQcHY_VFfpRukHMIRoCfb4QAvD_BwE" target="_blank">
+                <i class="fa-brands fa-google"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
