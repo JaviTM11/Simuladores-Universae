@@ -2,9 +2,6 @@
 
 Este proyecto fue desarrollado como parte de mis prácticas como programador en **Universae - Instituto Superior de FP**. El objetivo principal fue crear un **launcher de minijuegos simuladores** que permite acceder a diferentes simuladores interactivos relacionados con temáticas de formación profesional.
 
-## Estructura del Proyecto
-
-El proyecto está organizado de la siguiente manera:
 
 ## Descripción del Proyecto
 
